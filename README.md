@@ -1,4 +1,4 @@
 # vulcan-weather-services
-Sistema de predición de condiciónes climática
+Sistema de predicción de condiciones climática para galaxia muy lejana
 
 
