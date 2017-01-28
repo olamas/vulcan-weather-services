@@ -1,0 +1,4 @@
+--- 
+server: 
+  contextPath: /vulcan-weather-services
+  port: 8080
