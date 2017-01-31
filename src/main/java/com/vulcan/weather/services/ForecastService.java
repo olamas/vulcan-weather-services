@@ -19,8 +19,7 @@ public class ForecastService {
 		return forecastRepository.findByDay(day);
 	}
 
-	public List<Forecast> getPaginated(PageRequest pagination) {
-		
+	public List<Forecast> getPaginated(PageRequest pagination) {		
 		return forecastRepository.findByDayGreaterThanAndDayLessThan(pagination.getOffset(),pagination.getLimit());
 	}
 }
